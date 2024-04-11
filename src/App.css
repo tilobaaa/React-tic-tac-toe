@@ -1,0 +1,40 @@
+.overall{
+width: fit-content;
+ margin: auto;
+ margin-top: 0;
+}
+
+.board{
+  height: 600px;
+  width: 550px;
+  display: flex;
+}
+.boxes{
+  display: flex;
+  height: 90px;
+  width: 90px;
+  border: 4px solid rgb(51, 30, 30);
+  border-radius: 12px;
+
+}
+
+button{
+  padding: 1rem;
+  background-color: orange;
+  border: none;
+  border-radius: 15px;
+  display: flex;
+  position: absolute;
+  top: 34rem;
+  left: 30rem;
+}
+
+button:hover{
+  cursor: pointer;
+}
+
+.playerdiv{
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+}
